@@ -1,0 +1,13 @@
+items:
+  - href: https://s.e-code.in/invite-agebot
+    classes: ''
+    link_name: Invite
+    link_urlname: invite
+  - href: https://github.com/IotaSpencer/age_bot
+    classes: ''
+    link_name: Bot Source
+    link_urlname: bot_source
+  - href: https://github.com/IotaSpencer/age_bot.iotaspencer.me
+    classes: ''
+    link_name: Site Source
+    link_urlname: site_source

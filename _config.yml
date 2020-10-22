@@ -1,2 +1,8 @@
 #theme: jekyll-theme-hacker
 author: Ken Spencer / IotaSpencer
+title: AgeBot / Nenrei-Sama
+github:
+  site:
+    href: https://github.com/IotaSpencer/age_bot.iotaspencer.me
+  library:
+    href: https://github.com/IotaSpencer/age_bot

@@ -2,7 +2,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand btn btn-success text-success"  style="background-color: darkslategrey" href="/">Navbar</a>
+    <a class="navbar-brand btn btn-success text-success"  style="background-color: darkslategrey" href="/">{{ site.title }}</a>
 
     <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -16,7 +16,7 @@
             {% endfor %}
         </ul>
         <ul class="d-inline my-2 my-lg-0">
-
+            {% for item in site.data.navs.right.items
             <button class="btn btn-outline-success my-2 my-sm-0">InvitePlaceholder</button>
         </ul>
     </div>
