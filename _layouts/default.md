@@ -17,10 +17,17 @@
       {{ content }}
     </div>
     <div class="container page-footer bg-dark">
-    <div class="my-auto mx-auto bg-dark">
-        <footer>
-          &copy; {{ "now" | date: "%Y" }} {{site.author}}
-        </footer>
+    <div class="d-flex bg-dark">
+    <div>
+        <div class="flex-fill">
+          <a href="https://discord.gg/"><i>DiscordPlaceHolder</i></a>
+        </div>
+        </div>
+        <div>
+          <div class="flex-fill">
+            &copy; {{ "now" | date: "%Y" }} {{site.author}}
+          </div>
+        </div>
       </div>
     </div>
     {% include bootstrap-tail.html %}
