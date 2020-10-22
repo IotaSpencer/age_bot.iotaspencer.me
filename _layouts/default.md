@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    {% include bootstrap-head.html %}
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
+    
   </head>
   <body>
     {% include nav.html %}
@@ -14,5 +15,6 @@
     <footer>
       &copy; {{ "now" | date: "%Y" }} {{site.author}}
     </footer>
+    {% include bootstrap-tail.html %}
   </body>
 </html>
