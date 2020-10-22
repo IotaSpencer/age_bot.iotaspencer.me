@@ -3,12 +3,4 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 Gemfile.lock
-.idea/.gitignore
-.idea/age_bot.iotaspencer.me.iml
-.idea/deployment.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/sonarlint/
-.idea/vcs.xml
-/.idea/sonarIssues.xml
-/.idea/discord.xml
+/.idea/
