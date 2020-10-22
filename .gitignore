@@ -10,3 +10,4 @@ Gemfile.lock
 .idea/modules.xml
 .idea/sonarlint/
 .idea/vcs.xml
+/.idea/sonarIssues.xml
