@@ -10,7 +10,7 @@
                 <a class="nav-link" href="/">Home <span class="sr-only">Root Page</span></a>
             </li>
             {% for item in site.data.navs.left %}
-            <p>{{ puts item }}</p>
+            <p>{{ item.inspect }}</p>
             <li class="nav-item">
                 <a class="nav-link {{item.classes}}" href="{{ item.href }}">{{ item.link_name }}</a>
             </li>
