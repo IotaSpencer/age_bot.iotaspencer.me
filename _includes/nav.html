@@ -9,12 +9,11 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
+            {% for item in site.data.navs.left %}
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link {{item.classes}}" href="{{ item.href }}">{{ item.link_name }}</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+            {% endfor %}
         </ul>
         <ul class="d-inline my-2 my-lg-0">
 
