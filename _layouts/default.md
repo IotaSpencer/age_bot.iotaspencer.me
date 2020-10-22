@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    <nav>
-      <a href="/">{{ page.title }}</a>
-      <a href="/blog/">Blog</a>
-    </nav>
+    {{ include nav.html }}
     <h1>{{ page.title }}</h1>
     <div class="page-content">
       {{ content }}
