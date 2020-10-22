@@ -11,3 +11,4 @@ Gemfile.lock
 .idea/sonarlint/
 .idea/vcs.xml
 /.idea/sonarIssues.xml
+/.idea/discord.xml
