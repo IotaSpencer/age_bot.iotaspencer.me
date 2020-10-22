@@ -11,13 +11,13 @@
             </li>
             {% for item in site.data.navs.left.items %}
             <li class="nav-item text-light">
-                <a id="{{ item.link_urlname }}" class="nav-link bg-success {{item.classes}}" href="{{ item.href }}">{{ item.link_name }}</a>
+                <a id="{{ item.link_urlname }}" class="nav-link bg-success {{item.classes}}" href="{{ item.href }}">{{ item.pre_content_icons }} {{ item.link_name }}</a>
             </li>
             {% endfor %}
         </ul>
         <ul class="d-inline my-2 my-lg-0">
             {% for item in site.data.navs.right.items %}
-              <a class="btn btn-success my-2 my-sm-0 {{ item.classes }}" id="{{ item.link_urlname }}" href="{{ item.href }}">{{ item.pre_content_icons }}{{ item.link_name }}</a>
+              <a class="btn btn-success my-2 my-sm-0 {{ item.classes }}" id="{{ item.link_urlname }}" href="{{ item.href }}">{{ item.pre_content_icons }} {{ item.link_name }}</a>
             {% endfor %}
         </ul>
     </div>
