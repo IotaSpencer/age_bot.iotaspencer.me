@@ -17,7 +17,7 @@
       {{ content }}
     </div>
     <div class="container page-footer bg-dark">
-    <div class="my-auto bg-dark">
+    <div class="my-auto mx-auto bg-dark">
         <footer>
           &copy; {{ "now" | date: "%Y" }} {{site.author}}
         </footer>
