@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
-    {{ include nav.html }}
+    {% include nav.html %}
     <h1>{{ page.title }}</h1>
     <div class="page-content">
       {{ content }}
