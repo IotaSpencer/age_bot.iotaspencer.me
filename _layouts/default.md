@@ -15,9 +15,11 @@
       {{ content }}
     </div>
     <div class="container page-footer">
-    <footer>
-      &copy; {{ "now" | date: "%Y" }} {{site.author}}
-    </footer>
+    <div class="my-auto">
+        <footer>
+          &copy; {{ "now" | date: "%Y" }} {{site.author}}
+        </footer>
+      </div>
     </div>
     {% include bootstrap-tail.html %}
   </body>
