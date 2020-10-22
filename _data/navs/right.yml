@@ -1,19 +1,19 @@
 items:
   - href: https://s.e-code.in/invite-agebot
     classes: ''
-    extra_html: |
+    pre_content_icons: |
       <i class="fab fa-discord fa-2x"></i>
     link_name: Invite
     link_urlname: invite
   - href: https://github.com/IotaSpencer/age_bot
     classes: ''
-    extra_html: |
+    pre_content_icons: |
       <i class="fab fa-github-square fa-2x"></i>
     link_name: Bot Source
     link_urlname: bot_source
   - href: https://github.com/IotaSpencer/age_bot.iotaspencer.me
     classes: ''
-    extra_html: |
+    pre_content_icons: |
       <i class="fab fa-github-square fa-2x"></i>
     link_name: Site Source
     link_urlname: site_source
