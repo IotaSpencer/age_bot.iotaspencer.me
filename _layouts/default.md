@@ -18,12 +18,12 @@
     </div>
     <div class="container page-footer bg-dark">
     <div class="d-flex bg-dark">
-      <div class="flex-fill">
+      <div class="flex-fill"> <!-- First -->
         <div class="">
           <a href="https://discord.gg/"><i>DiscordPlaceHolder</i></a>
         </div>
       </div>
-      <div class="flex-fill">
+      <div class="flex-fill text-right"> <!-- Last -->
         <div class="">
           &copy; {{ "now" | date: "%Y" }} {{site.author}}
         </div>
