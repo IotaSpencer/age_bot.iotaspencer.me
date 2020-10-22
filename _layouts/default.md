@@ -7,10 +7,12 @@
     
   </head>
   <body>
-    <div class="container page-header">
+    <div class="container site-header">
       {% include nav.html %}
     </div>
-    <h1>{{ page.title }}</h1>
+    <div class="container page-header">
+      <h1>{{ page.title }}</h1>
+    </div>
     <div class="container page-content">
       {{ content }}
     </div>
