@@ -6,11 +6,11 @@
 
     <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
+            <li class="nav-item text-light">
                 <a class="nav-link bg-success" href="/">Home <span class="sr-only">Root Page</span></a>
             </li>
             {% for item in site.data.navs.left.items %}
-            <li class="nav-item">
+            <li class="nav-item text-light">
                 <a class="nav-link bg-success {{item.classes}}" href="{{ item.href }}">{{ item.link_name }}</a>
             </li>
             {% endfor %}
