@@ -10,9 +10,8 @@
                 <a class="nav-link" href="/">Home <span class="sr-only">Root Page</span></a>
             </li>
             {% for item in site.data.navs.left.items %}
-            {{ item }}
             <li class="nav-item">
-                <a class="nav-link {{item.classes}}" href="{{ item.href }}">{{ item.link_name }}</a>
+                <a class="nav-link bg-success {{item.classes}}" href="{{ item.href }}">{{ item.link_name }}</a>
             </li>
             {% endfor %}
         </ul>
